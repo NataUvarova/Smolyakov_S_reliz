@@ -70,7 +70,9 @@ header img:hover{
 
 .about .logo {
   display:flex;
-  margin:0px;
+  justify-content: center;
+  margin: 0px;
+  
 }
 
 .about img {
@@ -95,19 +97,21 @@ header img:hover{
   text-decoration: none;
   padding:5px 15px;
   border-radius: 15px;
-  
+  color:grey;
 }
 .product_1 a{
   text-decoration: none;
   padding:5px 15px;
   border-radius: 15px;
-  
+  color:grey;
 }
 .product a:hover{
   border:2px solid gray;
+  color:orange;
 }
 .product_1 a:hover{
   border:2px solid gray;
+  color:orange;
 }
 .product img {
   width: 250px;
